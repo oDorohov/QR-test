@@ -24,7 +24,7 @@
 
 ```bash
 git clone https://github.com/oDorohov/QR-test
-cd short-links-service
+cd QR-test
 ```
 
 2. **Установите зависимости:**
