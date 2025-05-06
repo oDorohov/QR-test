@@ -23,7 +23,7 @@
 1. **Клонируйте репозиторий:**
 
 ```bash
-git clone https://github.com/oDorohov/QR-test.git
+git clone https://github.com/oDorohov/QR-test
 cd short-links-service
 ```
 
@@ -73,7 +73,7 @@ http://localhost:8080
 
 ## Примеры
 
-- Короткая ссылка: `http://localhost:8080/r/abc123`
+- Короткая ссылка: `http://localhost:8080/redirect?code=1Q1ZKh`
 - QR-код доступен при создании ссылки и отображается на веб-странице
 - Статистика просмотров доступна в админке
 
