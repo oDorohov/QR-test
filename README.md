@@ -30,7 +30,7 @@ cd QR-test
 2. **Установите зависимости:**
 
 ```bash
-composer install
+composer create-project --repository='{"type":"vcs", "url":"https://github.com/oDorohov/QR-test"}' odorohov/qr-test my-app --stability=dev
 ```
 
 3. **Создайте базу данных** и настройте подключение в `config/db.php`:
