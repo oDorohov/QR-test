@@ -13,7 +13,7 @@
 - Веб-интерфейс для просмотра и управления
 
 ## Требования
- 
+
 - PHP 7.4 или выше
 - MySQL
 - Composer
@@ -23,7 +23,7 @@
 1. **Клонируйте репозиторий:**
 
 ```bash
-git clone https://github.com/your-username/short-links-service.git
+git clone https://github.com/oDorohov/QR-test.git
 cd short-links-service
 ```
 
