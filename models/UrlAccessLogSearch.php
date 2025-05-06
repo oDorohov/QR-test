@@ -41,7 +41,7 @@ class UrlAccessLogSearch extends UrlAccessLog
      */
     public function search($params, $formName = null)
     {
-        $query = UrlAccessLog::find();
+        $query = UrlAccessLog::find()->joinWith('shortUrl');
 
         // add conditions that should always apply here
 

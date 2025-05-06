@@ -33,6 +33,11 @@ $this->params['breadcrumbs'][] = $this->title;
             'original_url:ntext',
             'short_code',
             'created_at',
+			[
+			'attribute'=>'QR-code',
+			'value'=>'@web/qr/'.$model->short_code.".png", // WEB ACCESSABLE PATH + FILENAME 
+			'format' => ['image',['width'=>'100','height'=>'100']],
+			],
         ],
     ]) ?>
 

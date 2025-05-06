@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use Yii;
 use app\models\ShortUrl;
 use app\models\ShortUrlSearch;
 use yii\web\Controller;
@@ -111,8 +112,14 @@ class ShortUrlController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
-
+        $shortUrl = $this->findModel($id);
+		
+		$file = $file = Yii::getAlias('@webroot') . "/qr/{$shortUrl->short_code}.png";
+		unlink($file);
+		if(file_exists($file)){
+			
+		}
+		$shortUrl->delete();
         return $this->redirect(['index']);
     }
 
