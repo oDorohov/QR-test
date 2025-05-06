@@ -23,17 +23,11 @@
 1. **Клонируйте репозиторий:**
 
 ```bash
-git clone https://github.com/oDorohov/QR-test
-cd QR-test
+composer create-project --repository='{"type":"vcs", "url":"https://github.com/oDorohov/QR-test"}' odorohov/qr-test qr-code --stability=dev
+cd qr-code
 ```
 
-2. **Установите зависимости:**
-
-```bash
-composer create-project --repository='{"type":"vcs", "url":"https://github.com/oDorohov/QR-test"}' odorohov/qr-test my-app --stability=dev
-```
-
-3. **Создайте базу данных** и настройте подключение в `config/db.php`:
+2. **Создайте базу данных** и настройте подключение в `config/db.php`:
 
 ```php
 return [
