@@ -1,18 +1,15 @@
-{
-    "name": "yiisoft/yii2-app-basic",
-    "description": "Yii 2 Basic Project Template",
-    "keywords": ["yii2", "framework", "basic", "project template"],
-    "homepage": "https://www.yiiframework.com/",
-    "type": "project",
-    "license": "BSD-3-Clause",
-    "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "https://www.yiiframework.com/forum/",
-        "wiki": "https://www.yiiframework.com/wiki/",
-        "irc": "ircs://irc.libera.chat:6697/yii",
-        "source": "https://github.com/yiisoft/yii2"
-    },
-    "minimum-stability": "stable",
+	{
+	  "name": "odorohov/qr-test",
+	  "description": "Short link service with QR support, based on Yii2-basic",
+	  "keywords": ["yii2", "short-url", "qr", "project-template"],
+	  "homepage": "https://github.com/oDorohov/QR-test",
+	  "type": "project",
+	  "license": "MIT",
+	  "support": {
+		"issues": "https://github.com/oDorohov/QR-test/issues",
+		"source": "https://github.com/oDorohov/QR-test"
+	  },
+		"minimum-stability": "stable",
     "require": {
         "php": ">=7.4.0",
         "yiisoft/yii2": "~2.0.45",
